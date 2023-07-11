@@ -1,0 +1,136 @@
+---
+layout: single
+title: 🧐그리드 레이아웃(1)🧐
+---
+
+
+## 📢Briefing
+그리드 레이아웃과 그리드 레이아웃을 만드는 방법에 대해서 알아보자. 
+
+## 🛠그리드 레이아웃
+
+CSS를 바로 반응형 웹으로 만드는 것이 쉬운 일은 아니다. 
+
+그래서 우리는 그리드 레이아웃을 알아보려 한다.
+
+**그리드 레이아웃이란** 반응형 웹 디자인에서 웹 문서 요소를 배치하는 기준을 말한다.
+
+웹 사이트 화면을 여러 개의 칼럼(column)으로 나눈 후 웹 요소를 배치하는 방식이다
+
+화면을 규칙적으로 배열하므로 레이아웃을 일관성 있게 유지할 수 있다는 장점이 있다.
+
+**그리드 레이아웃의 특징**은 다음과 같다.
+
+- 시각적으로 안정된 디자인
+- 업데이트가 편한 웹 디자인 구성
+- 요소를 자유롭게 배치
+
+## 🛠그리드 레이아웃을 만드는 방법
+
+그리드 레이아웃을 만드는 방법은 **플렉스 박스 레이아웃**과 **CSS 그리드 레이아웃** 총 2개로 나눌 수 있다. 이번에는 **플렉스 박스 레이아웃을 알아보도록 하자.**
+
+### "플렉스 박스 레이아웃(flex box layout)"
+
+- 그리드 레이아웃을 기본으로, 플렉스 박스를 원하는 위치에 배치하는 것
+- 여유 공간에 따라 너비나 높이, 위치를 자유롭게 변형할 수 있다.
+
+**플렉스 박스**는 각 **웹 요소**를 부르는 명칭이다.
+
+먼저 웹 전체를 **플렉스 컨테이너(부모 박스)** 에 묶는다. 그리고 그 안에 **플렉스 항목(자식 박스)** 를 넣어준다. 
+
+플렉스 항목을 배치하는 가로 방향을 **주축**이라 부른다. 기본적으로 왼쪽에서 오른쪽으로 흘라간다. 
+
+이때 주축이 시작되는 부분을 **주축 시작점**이라 하고 주축이 끝나는 부분을 **주축 끝점**이라 한다.
+
+주축이 가로 방향이라면 세로 방향은 **교차축**으로 명칭한다. 교차축에도 마찬가지로 **교차축 시작점**, **교차축 끝점**이 존재한다.
+
+### "플렉스 컨테이너 만들기"
+
+플렉스 컨테이너를 만들기 위해서 **display 속성을 flex로** 정해주면 된다.
+
+```
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>플렉스 박스 레이아웃</title>
+  <style>
+    .container{
+      width: 700px;
+      background-color: #eee;
+      border: 1px solid #222;
+      margin-bottom: 30px;
+			display: flex;
+    }
+    .box{
+      padding: 5px 45px;
+      margin: 5px;
+      width: 80px;
+      background-color: #222;
+    }
+    p{
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div calss="box"><p>1</p></div>
+    <div calss="box"><p>2</p></div>
+    <div calss="box"><p>3</p></div>
+    <div calss="box"><p>4</p></div>
+    <div calss="box"><p>5</p></div>
+    <div calss="box"><p>6</p></div>
+  </div>
+</body>
+</html>
+```
+
+플렉스 컨테이너로 만드는 순간 세로로 배치되던 box가 가로로 배치되는 것을 볼 수 있을 것이다.
+
+### "flex-direction"
+
+**flex-direction**을 이용하면 **주축의 방항**을 정할 수 있다.
+
+### "flex-wrap"
+
+**flex-wrap**은 **줄을 바꾸는 속성**이다. 
+
+default 값은 줄을 바꾸지 않는 것(nowrap)이다.
+
+이렇게 되면 컨테이너 값이 줄어들더라도 웹요소가 넘치게 표시된다.
+
+그런데 이 요소를 **wrap**으로 바꾸게 되면 컨테이너의 width에 맞춰 플렉스 항목들을 배치한다.
+
+즉 주축에 맞춰 항목들을 배치하다가 주축을 벗어나게 되면 교차축에 맞춰서 항목을 배치하게 되는 것이다.
+
+참고로 wrap-reverse도 있다.
+
+### "justify-content"
+
+다음은 플렉스 항목 배치와 관련된 **justify-content**이다.
+
+justify-content에는 다양한 속성 값이 있는데 그 중 가장 많이 사용하는 것이 **flex-start**이다.
+
+이는 주축의 시작점을 기준으로 배치하는 것이다.
+
+이 외에도 space-around, space-between 등 다양한 속성값이 있다.
+
+### "align-items"
+
+justify-content가 주축에 따른 배치를 정하는 속성이라면 **align-items**는 교차축에 따른 배치를 정하는 방식이다. 
+align-items도 justify-content와 마찬가지로 flex-start, flex-end, center 등의 속성값이 있다. 추가로는 글자의 기준선을 맞추는 **baseline**과 교차축에 가득차게 플렉스 항목을 늘려주는 **stretch**가 있다. 
+
+### "align-content"
+
+align-items가 한 줄일 때의 얘기라면, **align-content**는 여러 줄일 때의 값을 정하는 것이다.
+
+--
+
+### 🔎참고한 사이트:
+
+[플렉스박스 참고자료]([https://developer.mozilla.org/ko/docs/Learn/CSS/CSS_laytout/Flexbox](https://developer.mozilla.org/ko/docs/Learn/CSS/CSS_layout/Flexbox))
+
+[플렉스박스를 이용한 게임](https://flexboxfroggy.com/#ko)
