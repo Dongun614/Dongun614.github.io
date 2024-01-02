@@ -6,7 +6,7 @@ title: ✏Jazz - Eddie Higgins✏
 오늘은 미국의 재즈 피아니스트이자 작곡가, Eddie Higgins에 대해 알아보자
 
 ## Eddie Higgins
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e4891742-f7fc-4416-90f7-2daedffa55cd/b2bb3cb8-b897-4e21-8043-299c5f683409/Untitled.png)
+![Untitled](https://i.namu.wiki/i/NFA2qLyHlmpTA03OFmcU_Bu4G21I3X1j_CfJar0rLS7w-4H7-rkaUEgtar1inwy0INyqr1JHVGhSJ7sO9pydPp9A2fnfDEka2WHY_JydJE70tHB5UYB1VhRcIf8TshRuE_-UTC6JXHXJFVEqDzbLKg.webp)
 
 Edward Haydn Higgins, February 21, 1932 - August 31, 2009)
 
@@ -24,7 +24,7 @@ Edward Haydn Higgins, February 21, 1932 - August 31, 2009)
 
 참고로 당시 런던 하우스에는 매일 밤 오스카 피터슨, 스탄 게츠, 에디 히긴스가 교대로 출연하고 있었다고 한다..
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e4891742-f7fc-4416-90f7-2daedffa55cd/c80c4269-3ff2-437a-bd8b-88ee84655f18/Untitled.png)
+![Untitled](https://i.namu.wiki/i/sQF9NCu9F48MzYHL9bsf_Jqw4UC_ANrKACRsTPMu8XbEsoKcPNBFqzctcnNFYWjqhHYiKDt4lnyrr9FSNkFkf4_5B0wsifctsSJlTv3RWH4BoaKH7HprFgrXiMIBmgPmNOM3xnC8S1AT-fPgfSZb5A.webp)
 
 위 사진은 에디 히긴스 트리오라 불렸던 에디 히긴스 (Eddie Higgins), 제이 레온하르트 (Jay Leonhart), 조 아쉬오네 (Joe Ascione)의 사진이다.
 
@@ -32,7 +32,8 @@ Edward Haydn Higgins, February 21, 1932 - August 31, 2009)
 
 내가 들어본 앨범은 “Dear Old Stockholm”이란 앨범이다. 
 
-이 앨범에 대한 내용과 수록곡들에 대한 내용은 다음에 더 자세히 알아보도록 하겠다.
+이 앨범과 수록곡에 대한 내용은 다음 포스트에서 더 살펴보도록 하겠다.
+
 --
 **🔍참고한 사이트:** <br>
 [Eddie Higgins namuwiki](https://namu.wiki/w/%EC%97%90%EB%94%94%20%ED%9E%88%EA%B8%B4%EC%8A%A4)<br>
