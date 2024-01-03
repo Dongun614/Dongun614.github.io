@@ -35,6 +35,7 @@ Edward Haydn Higgins, February 21, 1932 - August 31, 2009)
 이 앨범과 수록곡에 대한 내용은 다음 포스트에서 더 살펴보도록 하겠다.
 
 --
+
 **🔍참고한 사이트:** <br>
 [Eddie Higgins namuwiki](https://namu.wiki/w/%EC%97%90%EB%94%94%20%ED%9E%88%EA%B8%B4%EC%8A%A4)<br>
 [Eddie Higgins Wikipedia](https://ko.wikipedia.org/wiki/%EC%97%90%EB%94%94_%ED%9E%88%EA%B8%B4%EC%8A%A4)<br>
